@@ -8,7 +8,7 @@ namespace CollectionGenerics_Lab_8
 {
     public class Employee
     {
-        //Properties of the Employee-object
+        //Private variables
         private int id = 0;
         private string name = "";
         private string gender = "";
@@ -29,7 +29,7 @@ namespace CollectionGenerics_Lab_8
         {
         }
 
-        //Setter and getter for salary. Has logic to check if value is over 0 if you're trying to change salary-variable
+        //Property with setter and getter for salary. Has logic to check if value is over 0 if you're trying to change salary
         public double Salary
         {
             get 
@@ -49,7 +49,7 @@ namespace CollectionGenerics_Lab_8
             }
         }
 
-        //Setter and getter for gender, if gender is not set returns a warning instead of gender
+        //Property with setter and getter for gender, if gender is not set returns a warning instead of gender
         //If value is null or empty when trying to change gender, a warning will be printed in console and the value will not be set
         public string Gender
         {
@@ -77,9 +77,9 @@ namespace CollectionGenerics_Lab_8
             }
         }
 
-        //Setter and getter for name, if name is not set returns a warning instead of name
+        //Property with setter and getter for name, if name is not set returns a warning instead of name
         //If value is null or empty when trying to change name, a warning will be printed in console and the value will not be set
-        
+
         public string Name
         {
             get 
@@ -106,7 +106,7 @@ namespace CollectionGenerics_Lab_8
             }
         }
 
-        //Setter and getter for ID. Has logic to check if value is over 0 if you're trying to change ID-variable
+        //Property with setter and getter for ID. Has logic to check if value is over 0 if you're trying to change ID-variable
         public int Id
         {
             get 
@@ -133,4 +133,4 @@ namespace CollectionGenerics_Lab_8
         }
 
     }
-}
+} 
